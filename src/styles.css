@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+a {
+    color: #5fcf80;
+}
+
+a:hover {
+    color: #86db9f;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+.titulos {
+    text-align: center;
+    background: #5fcf80;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.titulos h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.titulos p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.contenido h3 {
+    font-weight: 600;
+    font-size: 26px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

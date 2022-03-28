@@ -1,0 +1,17 @@
+<header id="header">
+    <div class="container d-flex align-items-center">
+        <h1 class="logo mr-auto"><a [routerLink]="['home']">Prueba</a></h1>
+        <nav class="nav-menu navbar navbar-expand-sm navbar-light">
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav">
+                    <li class="mr-4" routerLinkActive="active"><a [routerLink]="['home']">Inicio</a></li>
+                    <li class="mr-4" routerLinkActive="active"><a [routerLink]="['usuarios']">Usuarios</a></li>
+                    <li routerLinkActive="active"><a [routerLink]="['about']">Acerca de</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>

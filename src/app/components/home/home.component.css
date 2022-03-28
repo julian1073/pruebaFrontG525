@@ -1,0 +1,36 @@
+#fondo:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#fondo .container {
+    padding-top: 72px;
+}
+
+#fondo h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+#fondo h2 {
+    color: #eee;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+#fondo {
+    width: 100%;
+    height: 85vh;
+    background: url("../../../assets/img/fondoHome2.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
