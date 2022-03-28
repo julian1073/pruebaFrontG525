@@ -1,5 +1,7 @@
 # PruebaFront
 
+Descargar repositorio y luego ejecutar npm install para descargar los modulos de node
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
 ## Development server
